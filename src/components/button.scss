@@ -1,0 +1,26 @@
+.button{
+  padding: 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-left:20px;
+  &.text{
+    color: deepskyblue;
+  }
+  &.contained{
+    background-color: dodgerblue;
+    border-radius: 3px;
+    color:#fff;
+  }
+  &.outlined{
+    border: 1px solid cornflowerblue;
+    border-radius: 3px;
+    color: deepskyblue;
+  }
+  &:disabled{
+    color:gray;
+    cursor: default;
+}
+}
